@@ -1,16 +1,138 @@
 {
-    "firstName": "Jane",
-    "lastName": "Doe",
-    "hobbies": ["running", "sky diving", "singing"],
-    "age": 35,
-    "children": [
+    "Sunday": 
         {
-            "firstName": "Alice",
-            "age": 6
+            "Mcd": 
+                {
+                    "Fish Burger":
+                        {
+                            "from": "9am",
+                            "till": "9pm",
+                            "price": "2.5"
+                        },
+                    "Mcspicy":
+                        {
+                            "from": "12pm",
+                            "till": "9pm",
+                            "price": "5.5"
+                        },
+                    "Mbrkfast":
+                        {
+                            "from": "9am",
+                            "till": "12pm",
+                            "price": "3"
+                        },
+                },
+        "Malay":
+            {
+                "Nasi Lemak":
+                    {
+                        "from": "9am",
+                        "till": "9pm",
+                        "price": "4.5"
+                    },
+                "fried rice":
+                    {
+                        "from": "12pm",
+                        "till": "9pm",
+                        "price": "3.5"
+                    },
+                "Chicken rice":
+                    {
+                        "from": "9am",
+                        "till": "12pm",
+                        "price": "2.5"
+                    },
+            },
+        "Indian":
+            {
+                "Paratha":
+                    {
+                        "from": "9am",
+                        "till": "9pm",
+                        "price": "1"
+                    },
+                "dosa":
+                    {
+                        "from": "12pm",
+                        "till": "9pm",
+                        "price": "1.5"
+                    },
+                "Chapathi":
+                    {
+                        "from": "9am",
+                        "till": "12pm",
+                        "price": "2"
+                    },
+            }
         },
+    "Monday":
         {
-            "firstName": "Bob",
-            "age": 8
+            "Mcd": 
+                {
+                    "Fish Burger":
+                        {
+                            "from": "9am",
+                            "till": "9pm",
+                            "price": "2.5"
+                        },
+                    "Mcspicy":
+                        {
+                            "from": "12pm",
+                            "till": "9pm",
+                            "price": "5.5"
+                        },
+                    "Mbrkfast":
+                        {
+                            "from": "9am",
+                            "till": "12pm",
+                            "price": "3"
+                        },
+                },
+        "Malay":
+            {
+                "Nasi Lemak":
+                    {
+                        "from": "9am",
+                        "till": "9pm",
+                        "price": "4.5"
+                    },
+                "fried rice":
+                    {
+                        "from": "9am",
+                        "till": "9pm",
+                        "price": "3.5"
+                    },
+                "Chicken rice":
+                    {
+                        "from": "NA",
+                        "till": "NA",
+                        "price": "2.5"
+                    },
+            },
+        "Indian":
+            {
+                "Paratha":
+                    {
+                        "from": "9am",
+                        "till": "9pm",
+                        "price": "1"
+                    },
+                "dosa":
+                    {
+                        "from": "12pm",
+                        "till": "9pm",
+                        "price": "1.5"
+                    },
+                "Chapathi":
+                    {
+                        "from": "9am",
+                        "till": "12pm",
+                        "price": "2"
+                    },
+            }
         }
-    ]
-}
+}   
+
+
+          
+
