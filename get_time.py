@@ -23,4 +23,4 @@ def gettime():
 			print ("day of the week is :", weekday[day])
 		else:
 			continue
-#gettime()
+gettime()
