@@ -1,0 +1,19 @@
+day,store,from,Till,item,price
+Sunday,Mcd,9am,9pm,fish burger,2.5
+Sunday,Mcd,12pm,9pm,Mcspicy,5.5
+Sunday,Mcd,9am,12pm,Mbrkfsrt,3
+Sunday,malay,9am,9pm,nasi lemak,4.5
+Sunday,malay,12pm,9pm,fried rice,3.5
+Sunday,malay,9am,12pm,Chicken rice,2.5
+Sunday,indian,9am,9pm,paratha,1
+Sunday,indian,12pm,9pm,dosa,1.5
+Sunday,indian,9am,12pm,chapathi,2
+Monday,Mcd,9am,9pm,fish burger,2.5
+Monday,Mcd,12pm,9pm,Mcspicy,5.5
+Monday,Mcd,9am,12pm,Mbrkfsrt,3
+Monday,malay,9am,9pm,nasi lemak,4.5
+Monday,malay,12pm,9pm,fried rice,3.5
+Monday,malay,NA,NA,Chicken rice,2.5
+Monday,indian,9am,9pm,paratha,1
+Monday,indian,12pm,9pm,dosa,1.5
+Monday,indian,NA,NA,chapathi,2
