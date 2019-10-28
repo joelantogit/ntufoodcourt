@@ -1,138 +1,32 @@
 {
-    "Sunday": 
-        {
-            "Mcd": 
-                {
-                    "Fish Burger":
-                        {
-                            "from": "9am",
-                            "till": "9pm",
-                            "price": 2.5
-                        },
-                    "Mcspicy":
-                        {
-                            "from": "12pm",
-                            "till": "9pm",
-                            "price": 5.5
-                        },
-                    "Mbrkfast":
-                        {
-                            "from": "9am",
-                            "till": "12pm",
-                            "price": 3
-                        }
-                },
-        "Malay":
-            {
-                "Nasi Lemak":
-                    {
-                        "from": "9am",
-                        "till": "9pm",
-                        "price": 4.5
-                    },
-                "fried rice":
-                    {
-                        "from": "12pm",
-                        "till": "9pm",
-                        "price": 3.5
-                    },
-                "Chicken rice":
-                    {
-                        "from": "9am",
-                        "till": "12pm",
-                        "price": 2.5
-                    }
+    "Sunday": {
+        "Mcd": {
+            "Waiting Time": 4,
+            "Open hrs": {
+                "Sunday": "09:00 AM - 18:00 PM",
+                "Saturday": "09:00 AM - 18:00 PM",
+                "Weekday": "09:00 AM - 21:00 PM",
+                "P/H": "Closed"
             },
-        "Indian":
-            {
-                "Paratha":
-                    {
-                        "from": "9am",
-                        "till": "9pm",
-                        "price": 1
-                    },
-                "dosa":
-                    {
-                        "from": "12pm",
-                        "till": "9pm",
-                        "price": 1.5
-                    },
-                "Chapathi":
-                    {
-                        "from": "9am",
-                        "till": "12pm",
-                        "price": 2
-                    }
+            "item": {
+                "Fish Burger": {
+                    "from": "9am",
+                    "till": "9pm",
+                    "price": 2.5
+                },
+                "Mcspicy": {
+                    "from": "12pm",
+                    "till": "9pm",
+                    "price": 5.5
+                },
+                "Mbrkfast": {
+                    "from": "9am",
+                    "till": "12pm",
+                    "price": 3
+                }
             }
         },
-    "Monday":
-        {
-            "Mcd": 
-                {
-                    "Fish Burger":
-                        {
-                            "from": "9am",
-                            "till": "9pm",
-                            "price": 2.5
-                        },
-                    "Mcspicy":
-                        {
-                            "from": "12pm",
-                            "till": "9pm",
-                            "price": 5.5
-                        },
-                    "Mbrkfast":
-                        {
-                            "from": "9am",
-                            "till": "12pm",
-                            "price": 3
-                        }
-                },
-        "Malay":
-            {
-                "Nasi Lemak":
-                    {
-                        "from": "9am",
-                        "till": "9pm",
-                        "price": 4.5
-                    },
-                "fried rice":
-                    {
-                        "from": "9am",
-                        "till": "9pm",
-                        "price": 3.5
-                    },
-                "Chicken rice":
-                    {
-                        "from": "NA",
-                        "till": "NA",
-                        "price": 2.5
-                    }
-            },
-        "Indian":
-            {
-                "Paratha":
-                    {
-                        "from": "9am",
-                        "till": "9pm",
-                        "price": 1
-                    },
-                "dosa":
-                    {
-                        "from": "12pm",
-                        "till": "9pm",
-                        "price": 1.5
-                    },
-                "Chapathi":
-                    {
-                        "from": "9am",
-                        "till": "12pm",
-                        "price": 2
-                    }
-            }
-        }
-}   
-
-
-          
-
+        "KFC": {},
+        "Subway": {}
+    }
+}
