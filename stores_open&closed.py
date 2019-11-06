@@ -3,7 +3,8 @@
 import time  #importing time module.
 import json
 import datetime
-
+import pprint
+pp= pprint.PrettyPrinter(indent = 4) #to print dictionaries with indent not necessary for the program
 file_handle = open ("store_item.json", mode="r", encoding="utf-8") #to read in the json file "store_item.json" from the current directory.
 store_item = json.load(file_handle)
 file_handle.close()
@@ -13,7 +14,7 @@ file_handle.close()
 
 
 
-localdate = "08/11/2019" #format of date to be recieved for function w_day
+localdate = "04/11/2019" #format of date to be recieved for function w_day
 localtime = "15:41 PM"  #format of time to be recieved for function w_day
 
 
@@ -89,6 +90,7 @@ def openorclosed(weekday,formatted_time):
 				for wday, details in others.items():
 					if(wday == wday_storeinfo):
 						storelist.append((store,storeinfo[store][openhrs][wday_storeinfo]))
+						#print (storelist)
 
 	upper = 0 #variable that carry store close time
 	lower = 0 #variable that carry store open time
@@ -107,6 +109,39 @@ def openorclosed(weekday,formatted_time):
 
 openorclosed(weekday,formatted_time)
 print (open_stores,closed_stores)
+
+name_of_the_store = 'Malay'    #test store for the function get menu
+
+def get_menu(name_of_the_store):
+
+	global menu_items
+	menu_items = []
+	localitems = [] #list to store the buld data  of dictionary at first locally
+	for day, stores  in store_item.items():
+		if(day == weekday):
+			for storename, fooditem in stores.items():
+				if (storename == name_of_the_store):
+					for fitem, details in fooditem.items():
+						localitems.append((fitem,store_item[day][storename][fitem]['from'],store_item[day][storename][fitem]['till'],store_item[day][storename][fitem]['price']))
+						#print(store_item[day][storename][fitem]['from'])
+
+	for store,fromtime,tilltime, price in localitems:
+		if(len(fromtime) == 3):
+			fromtime = "0" + fromtime
+		if(len(tilltime)==3):
+			tilltime = "0" + tilltime
+		upper =  timejsonto24hr(fromtime.lower())
+		lower = timejsonto24hr(tilltime.lower())
+		#print (upper, lower)
+		if(int(upper)<=int(formatted_time)<=int(lower)):
+			menu_items.append((store,price))
+
+	#pp.pprint(localitems)
+	pp.pprint(menu_items)
+
+get_menu(name_of_the_store)
+
+
 
 #print(storelist)
 
