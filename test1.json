@@ -10,9 +10,9 @@
             },
             "item": {
                 "Fish Burger": {
-                    "from": "10am",
-                    "till": "08pm",
-                    "price": 10.5
+                    "from": "9am",
+                    "till": "9pm",
+                    "price": 2.5
                 },
                 "Mcspicy": {
                     "from": "12pm",
@@ -25,17 +25,7 @@
                     "price": 3
                 }
             }
-        }
-    },
-    "Monday": {
-        "Mcd": {
-            "item": {
-                "Fish Burger": {
-                    "from": "09am",
-                    "till": "09pm",
-                    "price": 3.5
-                }
-            }
-        }
+        },
+        "KFC": {}
     }
 }
