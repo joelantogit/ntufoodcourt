@@ -114,8 +114,11 @@ name_of_the_store = 'Malay'    #test store for the function get menu
 
 def get_menu(name_of_the_store):
 
-	global menu_items
-	menu_items = []
+	global menu_items_available
+	menu_items_available = []
+	global menu_items_unavailable
+	menu_items_unavailable =[]
+
 	localitems = [] #list to store the buld data  of dictionary at first locally
 	for day, stores  in store_item.items():
 		if(day == weekday):
@@ -134,10 +137,12 @@ def get_menu(name_of_the_store):
 		lower = timejsonto24hr(tilltime.lower())
 		#print (upper, lower)
 		if(int(upper)<=int(formatted_time)<=int(lower)):
-			menu_items.append((store,price))
+			menu_items_available.append((store,price))
+		else:
+			menu_items_unavailable.append((store,price))
 
 	#pp.pprint(localitems)
-	pp.pprint(menu_items)
+	print(menu_items_available,menu_items_unavailable)
 
 get_menu(name_of_the_store)
 
