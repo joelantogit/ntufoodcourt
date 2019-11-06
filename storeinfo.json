@@ -1,0 +1,48 @@
+{
+    "Mcd": {
+        "Waiting Time": 3,
+        "Open hrs": {
+            "Sunday": "09am-09pm",
+            "Saturday": "09am-09pm",
+            "Weekday": "09am-09pm",
+            "P/H": "Closed"
+        }
+    },
+    "Subway": {
+        "Waiting Time": 5,
+        "Open hrs": {
+            "Sunday": "09am-11pm",
+            "Saturday": "09am-11pm",
+            "Weekday": "09am-11pm",
+            "P/H": "Closed"
+        }
+    },
+    "Indian": {
+        "Waiting Time": 2,
+        "Open hrs": {
+            "Sunday": "08am-09pm",
+            "Saturday": "08am-09pm",
+            "Weekday": "08am-09pm",
+            "P/H": "Closed"
+        }
+    },
+    "Noodle Shop": {
+        "Waiting Time": 5,
+        "Open hrs": {
+            "Sunday": "Closed",
+            "Saturday": "09am-09pm",
+            "Weekday": "09am-09pm",
+            "P/H": "Closed"
+        }
+    },
+    "Malay": {
+        "Waiting Time": 3,
+        "Open hrs": {
+            "Sunday": "09am-09pm",
+            "Saturday": "09am-09pm",
+            "Weekday": "09am-09pm",
+            "Friday": "04pm-09pm",
+            "P/H": "Closed"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import json
-
-
+import pprint
+pp= pprint.PrettyPrinter(indent = 4)
 #day, store, item, fromt, tillt, price = ("Sunday","Mcd","Fish Burger","","",0)
 #print(day,end="\n")
 
@@ -126,7 +126,7 @@ def user_input(arg): #to ask user and return data to fill in the json
 
 def input_to_json():
 	#opening file to read
-	file_handle = open ("test.json", mode="r", encoding="utf-8")
+	file_handle = open ("store_item.json", mode="r", encoding="utf-8")
 	global file
 	file = json.load(file_handle)
 	file_handle.close()
@@ -143,12 +143,12 @@ def input_to_json():
 		for keys, info in jstore.items():
 			stores.append(keys)
 	print(stores)
-	print (file)
-	option = {
-				1: 'wait_time',
-				2: 'working_hrs',
-				3: 'item_info'
-				}
+	pp.pprint(file)
+	#option = {
+	#			1: 'wait_time',
+	#			2: 'working_hrs',
+	#			3: 'item_info'
+	#			}
 
 
 	#start input for day
@@ -196,11 +196,12 @@ def input_to_json():
 		file[day]={}
 		print("new day created " + day, end="\n")
 		write_to_file(file)
+	pp.pprint(file)
 	if(stcount > len_of_days):
 		file[day][store] = {}
 		stores.append(store)
 		write_to_file(file)
-
+	pp.pprint(file)
 	#start inputting for fitem
 	fooditem = user_input('food_item')
 	if (fooditem =='exit'):
@@ -212,12 +213,12 @@ def input_to_json():
 	if (totime =='exit'):
 		exit()
 	price = user_input('price')
-	file[day][store]["item"] = {}
-	file[day][store]["item"][fooditem] = {}
-	file[day][store]["item"][fooditem]["from"] = fromtime
-	file[day][store]["item"][fooditem]["till"] = totime
-	file[day][store]["item"][fooditem]["price"] = price
 
+	file[day][store][fooditem] = {}
+	file[day][store][fooditem]["from"] = fromtime
+	file[day][store][fooditem]["till"] = totime
+	file[day][store][fooditem]["price"] = price
+	pp.pprint(file)
 	write_to_file(file)
 	input_to_json()
 
@@ -225,10 +226,10 @@ def input_to_json():
 	
 
 def write_to_file(file):
-	file_handle = open ("test.json", mode="w", encoding="utf-8")
+	file_handle = open ("store_item.json", mode="w", encoding="utf-8")
 	json.dump(file, file_handle, indent=4 )
 	file_handle.close()
-	file_handle = open ("test.json", mode="r", encoding="utf-8")
+	file_handle = open ("store_item.json", mode="r", encoding="utf-8")
 	file = json.load(file_handle)
 	file_handle.close()
 

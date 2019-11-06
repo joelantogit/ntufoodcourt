@@ -1,0 +1,905 @@
+{
+    "Monday": {
+        "Mcd": {
+            "Fish Burger": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 2.5
+            },
+            "Mcspicy": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 5.5
+            },
+            "Mbrkfast": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 3
+            },
+            "McChicken": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            },
+            "Nuggets": {
+                "from": "12pm",
+                "till": "09pm",
+                "price": 3.5
+            }
+        },
+        "Malay": {
+            "Nasi Lemak": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 4.5
+            },
+            "fried rice": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 3.5
+            },
+            "Chicken rice": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2.5
+            },
+            "Sotong": {
+                "from": "01pm",
+                "till": "08pm",
+                "price": 3.0
+            },
+            "Chicken Satay": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 4.5
+            }
+        },
+        "Indian": {
+            "Paratha": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 1
+            },
+            "dosa": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 1.5
+            },
+            "Chapathi": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2
+            },
+            "Idly": {
+                "from": "08am",
+                "till": "12pm",
+                "price": 2.0
+            },
+            "Poori": {
+                "from": "02pm",
+                "till": "10pm",
+                "price": 4.0
+            }
+        },
+        "Subway": {
+            "Italian BMT": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Chicken Teriyaki": {
+                "from": "12pm",
+                "till": "08pm",
+                "price": 7.0
+            },
+            "Tuna": {
+                "from": "10am",
+                "till": "05pm",
+                "price": 5.5
+            },
+            "Roast Beef": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 8.0
+            },
+            "Steak and Cheese": {
+                "from": "11am",
+                "till": "11pm",
+                "price": 9.0
+            }
+        },
+        "Noodle Shop": {
+            "Tom Yam Noodle": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 4.0
+            },
+            "Prawn Mee": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Pork Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 5.0
+            },
+            "Fish Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            }
+        }
+    },
+    "Tuesday": {
+        "Mcd": {
+            "Fish Burger": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 2.5
+            },
+            "Mcspicy": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 5.5
+            },
+            "Mbrkfast": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 3
+            },
+            "McChicken": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            },
+            "Nuggets": {
+                "from": "12pm",
+                "till": "09pm",
+                "price": 3.5
+            }
+        },
+        "Malay": {
+            "Nasi Lemak": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 4.5
+            },
+            "fried rice": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 3.5
+            },
+            "Chicken rice": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2.5
+            },
+            "Sotong": {
+                "from": "01pm",
+                "till": "08pm",
+                "price": 3.0
+            },
+            "Chicken Satay": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 4.5
+            }
+        },
+        "Indian": {
+            "Paratha": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 1
+            },
+            "dosa": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 1.5
+            },
+            "Chapathi": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2
+            },
+            "Idly": {
+                "from": "08am",
+                "till": "12pm",
+                "price": 2.0
+            },
+            "Poori": {
+                "from": "02pm",
+                "till": "10pm",
+                "price": 4.0
+            }
+        },
+        "Subway": {
+            "Italian BMT": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Chicken Teriyaki": {
+                "from": "12pm",
+                "till": "08pm",
+                "price": 7.0
+            },
+            "Tuna": {
+                "from": "10am",
+                "till": "05pm",
+                "price": 5.5
+            },
+            "Roast Beef": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 8.0
+            },
+            "Steak and Cheese": {
+                "from": "11am",
+                "till": "11pm",
+                "price": 9.0
+            }
+        },
+        "Noodle Shop": {
+            "Tom Yam Noodle": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 4.0
+            },
+            "Prawn Mee": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Pork Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 5.0
+            },
+            "Fish Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            }
+        }
+    },
+    "Wednesday": {
+        "Mcd": {
+            "Fish Burger": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 2.5
+            },
+            "Mcspicy": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 5.5
+            },
+            "Mbrkfast": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 3
+            },
+            "McChicken": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            },
+            "Nuggets": {
+                "from": "12pm",
+                "till": "09pm",
+                "price": 3.5
+            }
+        },
+        "Malay": {
+            "Nasi Lemak": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 4.5
+            },
+            "fried rice": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 3.5
+            },
+            "Chicken rice": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2.5
+            },
+            "Sotong": {
+                "from": "01pm",
+                "till": "08pm",
+                "price": 3.0
+            },
+            "Chicken Satay": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 4.5
+            }
+        },
+        "Indian": {
+            "Paratha": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 1
+            },
+            "dosa": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 1.5
+            },
+            "Chapathi": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2
+            },
+            "Idly": {
+                "from": "08am",
+                "till": "12pm",
+                "price": 2.0
+            },
+            "Poori": {
+                "from": "02pm",
+                "till": "10pm",
+                "price": 4.0
+            }
+        },
+        "Subway": {
+            "Italian BMT": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Chicken Teriyaki": {
+                "from": "12pm",
+                "till": "08pm",
+                "price": 7.0
+            },
+            "Tuna": {
+                "from": "10am",
+                "till": "05pm",
+                "price": 5.5
+            },
+            "Roast Beef": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 8.0
+            },
+            "Steak and Cheese": {
+                "from": "11am",
+                "till": "11pm",
+                "price": 9.0
+            }
+        },
+        "Noodle Shop": {
+            "Tom Yam Noodle": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 4.0
+            },
+            "Prawn Mee": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Pork Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 5.0
+            },
+            "Fish Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            }
+        }
+    },
+    "Thursday": {
+        "Mcd": {
+            "Fish Burger": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 2.5
+            },
+            "Mcspicy": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 5.5
+            },
+            "Mbrkfast": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 3
+            },
+            "McChicken": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            },
+            "Nuggets": {
+                "from": "12pm",
+                "till": "09pm",
+                "price": 3.5
+            }
+        },
+        "Malay": {
+            "Nasi Lemak": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 4.5
+            },
+            "fried rice": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 3.5
+            },
+            "Chicken rice": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2.5
+            },
+            "Sotong": {
+                "from": "01pm",
+                "till": "08pm",
+                "price": 3.0
+            },
+            "Chicken Satay": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 4.5
+            }
+        },
+        "Indian": {
+            "Paratha": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 1
+            },
+            "dosa": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 1.5
+            },
+            "Chapathi": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2
+            },
+            "Idly": {
+                "from": "08am",
+                "till": "12pm",
+                "price": 2.0
+            },
+            "Poori": {
+                "from": "02pm",
+                "till": "10pm",
+                "price": 4.0
+            }
+        },
+        "Subway": {
+            "Italian BMT": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Chicken Teriyaki": {
+                "from": "12pm",
+                "till": "08pm",
+                "price": 7.0
+            },
+            "Tuna": {
+                "from": "10am",
+                "till": "05pm",
+                "price": 5.5
+            },
+            "Roast Beef": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 8.0
+            },
+            "Steak and Cheese": {
+                "from": "11am",
+                "till": "11pm",
+                "price": 9.0
+            }
+        },
+        "Noodle Shop": {
+            "Tom Yam Noodle": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 4.0
+            },
+            "Prawn Mee": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Pork Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 5.0
+            },
+            "Fish Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            }
+        }
+    },
+    "Friday": {
+        "Mcd": {
+            "Fish Burger": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 2.5
+            },
+            "Mcspicy": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 5.5
+            },
+            "Mbrkfast": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 3
+            },
+            "McChicken": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            },
+            "Nuggets": {
+                "from": "12pm",
+                "till": "09pm",
+                "price": 3.5
+            }
+        },
+        "Malay": {
+            "Nasi Lemak": {
+                "from": "4pm",
+                "till": "9pm",
+                "price": 4.5
+            },
+            "fried rice": {
+                "from": "4pm",
+                "till": "9pm",
+                "price": 3.5
+            },
+            "Chicken rice": {
+                "from": "4pm",
+                "till": "12pm",
+                "price": 2.5
+            },
+            "Sotong": {
+                "from": "04pm",
+                "till": "08pm",
+                "price": 3.0
+            },
+            "Chicken Satay": {
+                "from": "04pm",
+                "till": "09pm",
+                "price": 4.5
+            }
+        },
+        "Indian": {
+            "Paratha": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 1
+            },
+            "dosa": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 1.5
+            },
+            "Chapathi": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2
+            },
+            "Idly": {
+                "from": "08am",
+                "till": "12pm",
+                "price": 2.0
+            },
+            "Poori": {
+                "from": "02pm",
+                "till": "10pm",
+                "price": 4.0
+            }
+        },
+        "Subway": {
+            "Italian BMT": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Chicken Teriyaki": {
+                "from": "12pm",
+                "till": "08pm",
+                "price": 7.0
+            },
+            "Tuna": {
+                "from": "10am",
+                "till": "05pm",
+                "price": 5.5
+            },
+            "Roast Beef": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 8.0
+            },
+            "Steak and Cheese": {
+                "from": "11am",
+                "till": "11pm",
+                "price": 9.0
+            }
+        },
+        "Noodle Shop": {
+            "Tom Yam Noodle": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 4.0
+            },
+            "Prawn Mee": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Pork Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 5.0
+            },
+            "Fish Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            }
+        }
+    },
+    "Saturday": {
+        "Mcd": {
+            "Fish Burger": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 2.5
+            },
+            "Mcspicy": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 5.5
+            },
+            "Mbrkfast": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 3
+            },
+            "McChicken": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            },
+            "Nuggets": {
+                "from": "12pm",
+                "till": "09pm",
+                "price": 3.5
+            }
+        },
+        "Malay": {
+            "Nasi Lemak": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 4.5
+            },
+            "fried rice": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 3.5
+            },
+            "Chicken rice": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2.5
+            },
+            "Sotong": {
+                "from": "01pm",
+                "till": "08pm",
+                "price": 3.0
+            },
+            "Chicken Satay": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 4.5
+            }
+        },
+        "Indian": {
+            "Paratha": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 1
+            },
+            "dosa": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 1.5
+            },
+            "Chapathi": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2
+            },
+            "Idly": {
+                "from": "08am",
+                "till": "12pm",
+                "price": 2.0
+            },
+            "Poori": {
+                "from": "02pm",
+                "till": "10pm",
+                "price": 4.0
+            }
+        },
+        "Subway": {
+            "Italian BMT": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Chicken Teriyaki": {
+                "from": "12pm",
+                "till": "08pm",
+                "price": 7.0
+            },
+            "Tuna": {
+                "from": "10am",
+                "till": "05pm",
+                "price": 5.5
+            },
+            "Roast Beef": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 8.0
+            },
+            "Steak and Cheese": {
+                "from": "11am",
+                "till": "11pm",
+                "price": 9.0
+            }
+        },
+        "Noodle Shop": {
+            "Tom Yam Noodle": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 4.0
+            },
+            "Prawn Mee": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Pork Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 5.0
+            },
+            "Fish Noodle": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            }
+        }
+    },
+    "Sunday": {
+        "Mcd": {
+            "Fish Burger": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 2.5
+            },
+            "Mcspicy": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 5.5
+            },
+            "Mbrkfast": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 3
+            },
+            "McChicken": {
+                "from": "09am",
+                "till": "09pm",
+                "price": 3.5
+            },
+            "Nuggets": {
+                "from": "12pm",
+                "till": "09pm",
+                "price": 3.5
+            }
+        },
+        "Malay": {
+            "Nasi Lemak": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 4.5
+            },
+            "fried rice": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 3.5
+            },
+            "Chicken rice": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2.5
+            },
+            "Sotong": {
+                "from": "01pm",
+                "till": "08pm",
+                "price": 3.0
+            },
+            "Chicken Satay": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 4.5
+            }
+        },
+        "Indian": {
+            "Paratha": {
+                "from": "9am",
+                "till": "9pm",
+                "price": 1
+            },
+            "dosa": {
+                "from": "12pm",
+                "till": "9pm",
+                "price": 1.5
+            },
+            "Chapathi": {
+                "from": "9am",
+                "till": "12pm",
+                "price": 2
+            },
+            "Idly": {
+                "from": "08am",
+                "till": "12pm",
+                "price": 2.0
+            },
+            "Poori": {
+                "from": "02pm",
+                "till": "10pm",
+                "price": 4.0
+            }
+        },
+        "Subway": {
+            "Italian BMT": {
+                "from": "10am",
+                "till": "09pm",
+                "price": 6.0
+            },
+            "Chicken Teriyaki": {
+                "from": "12pm",
+                "till": "08pm",
+                "price": 7.0
+            },
+            "Tuna": {
+                "from": "10am",
+                "till": "05pm",
+                "price": 5.5
+            },
+            "Roast Beef": {
+                "from": "03pm",
+                "till": "09pm",
+                "price": 8.0
+            },
+            "Steak and Cheese": {
+                "from": "11am",
+                "till": "11pm",
+                "price": 9.0
+            }
+            
+        }
+    }
+}
