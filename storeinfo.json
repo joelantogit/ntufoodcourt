@@ -5,6 +5,7 @@
             "Sunday": "09am-09pm",
             "Saturday": "09am-09pm",
             "Weekday": "09am-09pm",
+            "Friday": "09am-09pm",
             "P/H": "Closed"
         }
     },
@@ -14,6 +15,7 @@
             "Sunday": "09am-11pm",
             "Saturday": "09am-11pm",
             "Weekday": "09am-11pm",
+            "Friday": "09am-09pm",
             "P/H": "Closed"
         }
     },
@@ -23,6 +25,7 @@
             "Sunday": "08am-09pm",
             "Saturday": "08am-09pm",
             "Weekday": "08am-09pm",
+            "Friday": "09am-09pm",
             "P/H": "Closed"
         }
     },
@@ -32,6 +35,7 @@
             "Sunday": "Closed",
             "Saturday": "09am-09pm",
             "Weekday": "09am-09pm",
+            "Friday": "09am-09pm",
             "P/H": "Closed"
         }
     },
