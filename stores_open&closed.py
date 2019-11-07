@@ -110,7 +110,7 @@ def openorclosed(weekday,formatted_time):
 openorclosed(weekday,formatted_time)
 print (open_stores,closed_stores)
 
-name_of_the_store = 'Malay'    #test store for the function get menu
+name_of_the_store = 'Subway'    #test store for the function get menu
 
 def get_menu(name_of_the_store):
 
@@ -147,7 +147,37 @@ def get_menu(name_of_the_store):
 get_menu(name_of_the_store)
 
 
+def waitingtimecalc(name_of_the_store):
+	global waiting_time
+	waiting_time = 0
 
+	for store, item in storeinfo.items():
+		if(store == name_of_the_store):
+			for waitime, others in item.items():
+				if (waitime == 'Waiting Time'):
+					waiting_time = storeinfo[store][waitime]
+
+
+waitingtimecalc(name_of_the_store)
+
+print("waiting time for " + name_of_the_store +":" + "{}".format(waiting_time))
+
+
+def getopenhrs(name_of_the_store):
+    global operating_hrs
+    operating_hrs= []
+
+    for store, item in storeinfo.items():
+        if(store == name_of_the_store):
+            for oprhrs, others in item.items():
+                if (oprhrs == 'Open hrs'):
+               		for day, openhr in others.items():
+                   		operating_hrs.append((day,openhr))
+                    
+getopenhrs(name_of_the_store)
+
+
+print (operating_hrs)
 #print(storelist)
 
 

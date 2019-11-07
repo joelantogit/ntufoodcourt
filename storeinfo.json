@@ -5,8 +5,8 @@
             "Sunday": "09am-09pm",
             "Saturday": "09am-09pm",
             "Weekday": "09am-09pm",
-            "Friday": "09am-09pm",
-            "P/H": "Closed"
+            "Friday": "09am-09pm"
+            
         }
     },
     "Subway": {
@@ -15,8 +15,8 @@
             "Sunday": "09am-11pm",
             "Saturday": "09am-11pm",
             "Weekday": "09am-11pm",
-            "Friday": "09am-09pm",
-            "P/H": "Closed"
+            "Friday": "09am-09pm"
+            
         }
     },
     "Indian": {
@@ -25,8 +25,8 @@
             "Sunday": "08am-09pm",
             "Saturday": "08am-09pm",
             "Weekday": "08am-09pm",
-            "Friday": "09am-09pm",
-            "P/H": "Closed"
+            "Friday": "09am-09pm"
+            
         }
     },
     "Noodle Shop": {
@@ -35,8 +35,8 @@
             "Sunday": "Closed",
             "Saturday": "09am-09pm",
             "Weekday": "09am-09pm",
-            "Friday": "09am-09pm",
-            "P/H": "Closed"
+            "Friday": "09am-09pm"
+            
         }
     },
     "Malay": {
@@ -45,8 +45,8 @@
             "Sunday": "09am-09pm",
             "Saturday": "09am-09pm",
             "Weekday": "09am-09pm",
-            "Friday": "04pm-09pm",
-            "P/H": "Closed"
+            "Friday": "04pm-09pm"
+            
         }
     }
 }
