@@ -10,3 +10,4 @@ additional features:
 
 1. waiting time calculator 
 2. restaurant open hrs pop-up display
+3. running input_data.py will enable a console based data entry to the existing jsons data files.
