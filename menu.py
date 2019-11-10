@@ -32,7 +32,7 @@ def current_time(): #to get the current date and time as strings in the format 2
     return (localdate,localtime)
 #BY JOEL
 def w_day(localdate): #function to get the week of the day
-    #print (localdate)
+    #print(localdate)
     day, month, year = (int(x) for x in localdate.split('/'))
     x = datetime.date(year,month,day)
     weekday = x.strftime("%A")
